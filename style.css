@@ -1,0 +1,126 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+header {
+    padding: 20px 0;
+}
+
+
+header .row,
+footer .row {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-weight: 700;
+    margin: 0;
+    font-family: 'Tangerine';
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header a {
+    padding: 0 20px;
+    margin: 0;
+    color: #311609;
+}
+
+
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url('img/img_main/j_cookies_1.jpg');
+    background-size: cover;
+    color: #ffffff;
+    height: 100vh;
+    text-shadow: 4px 4px 4px #311609;
+    font-family: 'Tangerine';
+    font-size: 22px;
+}
+
+.jumbotron h2 {
+    font-size: 100px;
+    font-weight: 700;
+    margin: 0;
+    text-shadow: 4px 4px 4px #311609;
+    letter-spacing: 0.2em;
+}
+
+.jumbotron h3 {
+    margin: 0 0 20px;
+    color: #fff;
+    font-size: 70px;
+}
+
+section .row img {
+    margin: 0 0 30px;
+    width: 100%;
+    border-radius: 8px;
+    border-color: #311609;
+    border-width: 1px;
+}
+
+.col-sm-3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.col-sm-3:hover {
+
+
+}
+
+.col-md-6 {
+    margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+    border-radius: 10px;
+    border: 0px;
+    color: #311609;;
+    text-shadow: none;
+    background-color: #ffffff;
+    font-size: 40px;
+}
+
+.btn.btn-primary:hover {
+    color: #ffffff;
+    background-color: #734724;
+}
+
+.btn-secondary {
+    background-color: #311609;
+    color: white;
+    margin: 0 0 30px;
+}
+
+.btn-secondary:hover {
+    color: #FBD1A0;
+
+}
+
+footer {
+    font-size: 12px;
+    padding: 20px 0;
+}
+
+footer .col-sm-8 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li img {
+    width: 32px;
+    height: 32px;
+}
